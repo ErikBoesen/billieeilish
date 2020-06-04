@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Fugaz One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fugaz One'), local('FugazOne-Regular'), url(https://fonts.gstatic.com/s/fugazone/v7/rax_HiWKp9EAITukFsl8AxhfsUjQ8Q.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fugaz One'), local('FugazOne-Regular'), url(https://fonts.gstatic.com/s/fugazone/v7/rax_HiWKp9EAITukFsl8AxhfsUjQ8Q.woff2) format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body { height: 100%; }
+body {
+    background: #92e6db;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fugaz One';
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    animation: colors 30s infinite linear;
+}
+@keyframes colors {
+    0% { background-color: #F44336; }
+    6% { background-color: #FF5722; }
+    12% { background-color: #FF9800; }
+    18% { background-color: #FFC107; }
+    24% { background-color: #FFEB3B; }
+    30% { background-color: #CDDC39; }
+    36% { background-color: #8BC34A; }
+    42% { background-color: #4CAF50; }
+    48% { background-color: #009688; }
+    54% { background-color: #00BCD4; }
+    60% { background-color: #03A9F4; }
+    66% { background-color: #2196F3; }
+    72% { background-color: #3F51B5; }
+    78% { background-color: #673AB7; }
+    84% { background-color: #9C27B0; }
+    90% { background-color: #E91E63; }
+    100% { background-color: #F44336; }
+}
+
+h1 {
+    font-size: 40px;
+}
+#name {
+    font-size: 150px;
+}
+#generate {
+    font-family: 'Great Vibes';
+    padding: 10px 30px 0px;
+    border: solid 4px white;
+    background: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: inherit;
+    font-size: 45px;
+    outline: 0;
+    font-weight: bold;
+}
