@@ -2,7 +2,7 @@ const FIRST_NAMES = ['Bully', 'Bally', 'Building', 'Bailey', 'Blunted', 'Beaver'
       LAST_NAMES = ['Eyelash', 'Eiffel', 'Earwig', 'Easter', 'Evisceration', 'Extract', 'Excalibur', 'Excursion', 'Executioner', 'Exemlify', 'Embezzlement', 'Extortion'];
 
 function choose(array) {
-    return array[Math.floor(Math.random() * array.length)],
+    return array[Math.floor(Math.random() * array.length)];
 }
 
 function randomName() {
