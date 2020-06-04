@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'Fugaz One';
     -webkit-font-smoothing: antialiased;
     color: white;
